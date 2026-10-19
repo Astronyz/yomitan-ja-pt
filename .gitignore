@@ -1,0 +1,10 @@
+work/
+out/
+public_out/
+*.zip
+.env
+.env.*
+__pycache__/
+*.pyc
+data/cache/
+.pytest_cache/

@@ -1,0 +1,13 @@
+name: Erro de tradução
+description: Relate uma tradução incorreta
+body:
+  - type: input
+    id: termo
+    attributes:
+      label: Termo/leitura
+    validations:
+      required: true
+  - type: textarea
+    id: contexto
+    attributes:
+      label: Contexto e correção proposta

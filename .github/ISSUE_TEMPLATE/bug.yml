@@ -1,0 +1,7 @@
+name: Bug no build
+description: Relate falha de instalação ou geração
+body:
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs e passos para reproduzir

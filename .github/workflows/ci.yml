@@ -1,0 +1,16 @@
+name: CI
+on: [push, pull_request]
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.x'}
+      - run: python scripts/build.py --public
+      - name: scan repository policy
+        shell: bash
+        run: |
+          ! find . -type f -size +25M -print -quit | grep -q .
+          ! find . -iname '*.zip' -o -iname '.env*' | grep -q .
+          ! grep -RIEq '(ghp_[A-Za-z0-9]|xoxb-[A-Za-z0-9]|BEGIN (RSA|OPENSSH|EC) PRIVATE KEY)' --exclude-dir=.git .
