@@ -1,0 +1,202 @@
+# Amostra de 200 entradas
+
+- **あの** (あの): adjectival kana that
+- **あの** (あの): interjection say well
+- **うん** (うん): interjection yes yeah
+- **あれ** (あれ): pronoun kana that
+- **ええ** (ええ): interjection yes that is correct
+- **あんな** (あんな): adjectival that sort of that kind of
+- **いけない** (いけない): exp adjective bad
+- **えー** (えー): interjection yes that is correct
+- **あそこ** (あそこ): pronoun kana there
+- **あら** (あら): interjection feminine oh!
+- **いらっしゃる** (いらっしゃる): 5-dan (spec.) intransitive honorific
+- **えっと** (えっと): interjection let me see well
+- **いらっしゃいませ** (いらっしゃいませ): exp welcome Note
+- **あっさり** (あっさり): adverb to-adverb suru
+- **うむ** (うむ): interjection yes yeah
+- **いざ** (いざ): adverb interjection now
+- **アレ** (アレ): ⟶ あれ
+- **あん** (あん): adjectival kana that
+- **あのー** (あのー): interjection say well
+- **うっかり** (うっかり): adverb to-adverb suru
+- **うんざり** (うんざり): adverb to-adverb suru
+- **いらっしゃい** (いらっしゃい): interjection honorific come
+- **あからさま** (あからさま): na-adj no-adj kana
+- **ううむ** (ううむ): interjection yes yeah
+- **あらー** (あらー): interjection feminine oh!
+- **あしらう** (あしらう): 5-dan transitive kana
+- **うろうろ** (うろうろ): adverb to-adverb mimetic
+- **あかん** (あかん): exp kana Kansai
+- **イチャイチャ** (イチャイチャ): adverb suru mimetic
+- **あやす** (あやす): 5-dan transitive to cuddle
+- **ウン** (ウン): interjection yes yeah
+- **ウロウロ** (ウロウロ): adverb to-adverb mimetic
+- **あのう** (あのう): interjection say well
+- **あやふや** (あやふや): na-adj mimetic uncertain
+- **いそいそ** (いそいそ): to-adverb adverb suru
+- **あどけない** (あどけない): adjective innocent cherubic
+- **いかす** (いかす): 5-dan intransitive colloquial
+- **うねり** (うねり): noun kana undulation
+- **いじらしい** (いじらしい): adjective lovable sweet
+- **いじける** (いじける): 1-dan intransitive to grow timid
+- **イカす** (イカす): 5-dan intransitive colloquial
+- **うずうず** (うずうず): adverb to-adverb suru
+- **イチャつく** (イチャつく): 5-dan intransitive to make out
+- **アソコ** (アソコ): pronoun kana there
+- **うとうと** (うとうと): adverb to-adverb suru
+- **エイ** (エイ): noun kana ray (any fish of superorder Batoidea)
+- **いちゃつく** (いちゃつく): 5-dan intransitive to make out
+- **いざこざ** (いざこざ): noun trouble quarrel
+- **うじうじ** (うじうじ): adverb to-adverb suru
+- **いちゃいちゃ** (いちゃいちゃ): adverb suru mimetic
+- **ウジウジ** (ウジウジ): adverb to-adverb suru
+- **うねうね** (うねうね): adverb to-adverb suru
+- **うんっ** (うんっ): ⟶ うん うん
+- **うんこ** (うんこ): noun suru intransitive
+- **ウズウズ** (ウズウズ): adverb to-adverb suru
+- **うだうだ** (うだうだ): adverb suru mimetic
+- **アカン** (アカン): exp kana Kansai
+- **ウンコ** (ウンコ): noun suru intransitive
+- **ウトウト** (ウトウト): adverb to-adverb suru
+- **ウンザリ** (ウンザリ): adverb to-adverb suru
+- **あぶれる** (あぶれる): 1-dan intransitive kana
+- **アラ** (アラ): noun kana saw-edged perch (Niphon spinosus)
+- **うじゃうじゃ** (うじゃうじゃ): adverb to-adverb suru
+- **いびる** (いびる): 5-dan transitive to pick on
+- **かしこ** (かしこ): pronoun kana there
+- **あべこべ** (あべこべ): no-adj na-adj noun
+- **アッサリ** (アッサリ): adverb to-adverb suru
+- **ウダウダ** (ウダウダ): adverb suru mimetic
+- **うんち** (うんち): noun suru intransitive
+- **イケない** (イケない): ⟶ いけない
+- **ウネウネ** (ウネウネ): adverb to-adverb suru
+- **ウンチ** (ウンチ): noun suru intransitive
+- **えーっ** (えーっ): ⟶ ええ ええ
+- **あおば** (あおば): noun obsolete (former) regular (stops at every station) Tōhoku-line Shinkansen
+- **ウジャウジャ** (ウジャウジャ): adverb to-adverb suru
+- **あすこ** (あすこ): pronoun kana there
+- **いじいじ** (いじいじ): adverb to-adverb suru
+- **アホンダラ** (アホンダラ): noun kana Kansai
+- **あっぷあっぷ** (あっぷあっぷ): adverb to-adverb suru
+- **ウッカリ** (ウッカリ): adverb to-adverb suru
+- **いじましい** (いじましい): adjective stingy petty
+- **イザコザ** (イザコザ): noun trouble quarrel
+- **うぞうぞ** (うぞうぞ): adverb mimetic irrepressibly aroused (esp. sexually)
+- **イジイジ** (イジイジ): adverb to-adverb suru
+- **あかーん** (あかーん): ⟶ あかん あかん
+- **いらしゃいませ** (いらしゃいませ): exp welcome Note
+- **イソイソ** (イソイソ): to-adverb adverb suru
+- **えーー** (えーー): ⟶ ええ ええ
+- **アマゴ** (アマゴ): noun kana land-locked variety of red-spotted masu trout (Oncorhynchus masou ishikawae)
+- **アセビ** (アセビ): noun kana Japanese andromeda (Pieris japonica)
+- **いごっそう** (いごっそう): noun Tosa stubborn person
+- **うとっと** (うとっと): ⟶ うとうと うとうと
+- **いらしゃい** (いらしゃい): interjection honorific come
+- **ノマ** (ノマ): unclass Explanation kanji repetition mark
+- **ウトっと** (ウトっと): ⟶ うとうと うとうと
+- **ヽ** (ヽ): unclass repetition mark in katakana See also
+- **ヾ** (ヾ): unclass Explanation voiced repetition mark in katakana
+- **ゝ** (ゝ): unclass Explanation repetition mark in hiragana
+- **ゞ** (ゞ): unclass Explanation voiced repetition mark in hiragana
+- **〃** (おなじ): noun ditto mark forms
+- **〃** (おなじく): noun ditto mark forms
+- **仝** (どう): unclass "as above" mark See also
+- **々** (のま): unclass Explanation kanji repetition mark
+- **○** (まる): noun circle Note
+- **〇** (まる): noun circle Note
+- **ＡＢＣ順** (エービーシーじゅん): noun alphabetical order JMdict
+- **ＣＤプレーヤー** (シーディープレーヤー): noun CD player 私
+- **ＣＤプレイヤー** (シーディープレイヤー): noun CD player 私
+- **Ｎ響** (エヌきょう): noun abbr. NHK Symphony Orchestra
+- **Ｎ響** (): ⟶ Ｎ エヌ
+- **Ｏバック** (オーバック): noun O-back skirt with peek-a-boo hole in rump
+- **Ｔシャツ** (ティーシャツ): noun T-shirt tee shirt
+- **Ｔバック** (ティーバック): noun T-back bikini thong
+- **阿吽の呼吸** (あうんのこきゅう): exp noun idiom
+- **あうんの呼吸** (あうんのこきゅう): exp noun idiom
+- **あ・うんの呼吸** (): ⟶ 阿 あ
+- **明白** (めいはく): na-adj obvious clear
+- **明白** (あからさま): na-adj no-adj kana
+- **偸閑** (あからさま): na-adj no-adj kana
+- **白地** (あからさま): na-adj no-adj kana
+- **明かん** (あかん): exp kana Kansai
+- **悪どい** (あくどい): adjective kana gaudy
+- **灰汁どい** (あくどい): adjective kana gaudy
+- **惡どい** (): ⟶ 悪 あく
+- **論う** (あげつらう): 5-dan transitive kana
+- **遇う** (あしらう): 5-dan transitive kana
+- **配う** (): ⟶ あしらう あしらう
+- **馬酔木** (あせび): noun kana Japanese andromeda (Pieris japonica)
+- **馬酔木** (あしび): noun kana Japanese andromeda (Pieris japonica)
+- **馬酔木** (あせぼ): noun kana Japanese andromeda (Pieris japonica)
+- **馬酔木** (あせぶ): noun kana Japanese andromeda (Pieris japonica)
+- **馬醉木** (): ⟶ 馬 あ
+- **彼処** (あそこ): pronoun kana there
+- **彼所** (あそこ): pronoun kana there
+- **彼処** (あすこ): pronoun kana there
+- **彼所** (あすこ): pronoun kana there
+- **彼処** (かしこ): pronoun kana there
+- **彼所** (かしこ): pronoun kana there
+- **彼処** (あしこ): pronoun kana there
+- **彼所** (あしこ): pronoun kana there
+- **彼處** (): ⟶ 彼 あそ
+- **あっという間に** (あっというまに): exp adverb in an instant
+- **あっと言う間に** (あっというまに): exp adverb in an instant
+- **アッという間に** (): ⟶ あっという 間
+- **アッと言う間に** (): ⟶ あっという 間
+- **あっとゆう間に** (): ⟶ あっという 間
+- **アッとゆう間に** (): ⟶ あっという 間
+- **彼の** (あの): adjectival kana that
+- **あの人** (あのひと): pronoun he she
+- **彼の人** (あのひと): pronoun he she
+- **あの方** (あのかた): pronoun honorific that gentleman
+- **彼の方** (あのかた): pronoun honorific that gentleman
+- **溢れる** (あぶれる): 1-dan intransitive kana
+- **阿呆陀羅** (あほんだら): noun kana Kansai
+- **阿呆陀羅** (あほだら): noun kana Kansai
+- **アホんだら** (アホんだら): ⟶ 阿 あ
+- **甘子** (あまご): noun kana land-locked variety of red-spotted masu trout (Oncorhynchus masou ishikawae)
+- **天魚** (あまご): noun kana land-locked variety of red-spotted masu trout (Oncorhynchus masou ishikawae)
+- **雨子** (あまご): noun kana land-locked variety of red-spotted masu trout (Oncorhynchus masou ishikawae)
+- **𩺊** (あら): noun kana saw-edged perch (Niphon spinosus)
+- **彼** (あれ): pronoun kana that
+- **彼れ** (あれ): pronoun kana that
+- **いい加減にしなさい** (いいかげんにしなさい): exp shape up! act properly!
+- **いい年をして** (いいとしをして): exp (in spite of) being old enough to know better See also
+- **いい歳をして** (いいとしをして): exp (in spite of) being old enough to know better See also
+- **いい歲をして** (): ⟶ いい 歳
+- **否々** (いやいや): interjection kana no!
+- **否否** (いやいや): interjection kana no!
+- **否々** (いえいえ): interjection kana no!
+- **否否** (いえいえ): interjection kana no!
+- **如何わしい** (いかがわしい): adjective kana suspicious
+- **いかなる場合でも** (いかなるばあいでも): exp in any case whatever the case may be
+- **如何なる場合でも** (いかなるばあいでも): exp in any case whatever the case may be
+- **如何にも** (いかにも): adverb kana indeed
+- **幾つも** (いくつも): adverb no-adj kana
+- **行けない** (): ⟶ いけない いけない
+- **いぢましい** (いぢましい): adjective stingy petty
+- **可憐しい** (): ⟶ いじらしい いじらしい
+- **いじり回す** (いじりまわす): 5-dan transitive to tinker with
+- **弄り回す** (いじりまわす): 5-dan transitive to tinker with
+- **弄りまわす** (): ⟶ いじり 回
+- **何時もより** (いつもより): adverb kana more than usual (usu. time)
+- **いとも簡単に** (いともかんたんに): adverb very easily 彼
+- **いとも簡單に** (): ⟶ いとも 簡
+- **鯔背** (いなせ): na-adj kana gallant
+- **嘶く** (いななく): 5-dan intransitive to neigh
+- **嘶き** (いななき): noun kana neigh
+- **嫌に** (いやに): adverb kana awfully
+- **厭に** (いやに): adverb kana awfully
+- **居らっしゃる** (): ⟶ いらっしゃる いらっしゃる
+- **ウトッと** (ウトッと): ⟶ うとうと うとうと
+- **畝り** (うねり): noun kana undulation
+- **狼狽える** (うろたえる): 1-dan intransitive kana
+- **う～ん** (う～ん): ⟶ うん うん
+- **ウ〜ン** (ウ〜ン): ⟶ うん うん
+- **鱝** (えい): noun kana ray (any fish of superorder Batoidea)
+- **鱏** (えい): noun kana ray (any fish of superorder Batoidea)
+- **海鷂魚** (えい): noun kana ray (any fish of superorder Batoidea)
+- **海鷂魚** (): ⟶ 海鷂魚 えい
+- **え〜** (え〜): ⟶ ええ ええ
