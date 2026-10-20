@@ -3,6 +3,6 @@
   "format": 3,
   "revision": "2026-10-19",
   "description": "Termos japonês → português brasileiro. O ZIP de distribuição está nos Releases.",
-  "downloadUrl": "https://github.com/Astronyz/yomitan-ja-pt/releases/latest/download/Jitendex-PT.zip",
-  "indexUrl": "https://github.com/Astronyz/yomitan-ja-pt/releases/latest/download/Jitendex-PT.zip"
+  "downloadUrl": "https://github.com/CosmionLabs/yomitan-ja-pt/raw/refs/heads/main/dictionaries/terms/Jitendex-PT.zip",
+  "indexUrl": "https://github.com/CosmionLabs/yomitan-ja-pt/raw/refs/heads/main/dictionaries/terms/Jitendex-PT.zip"
 }

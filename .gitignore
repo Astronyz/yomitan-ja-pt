@@ -2,6 +2,7 @@ work/
 out/
 public_out/
 *.zip
+!dictionaries/**/*.zip
 .env
 .env.*
 __pycache__/
