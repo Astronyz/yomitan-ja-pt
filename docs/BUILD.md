@@ -13,7 +13,7 @@ O pipeline roda localmente com Python 3.10+ e sem dependências externas. As fon
 
 ## Release
 
-Um push de tag `vX.Y.Z` dispara `.github/workflows/release.yml`. Ele valida `dictionaries/` com `scripts/build.py` e publica os ZIPs e os índices soltos (`Jitendex-PT.json`, etc.) como assets do Release. Os índices são o alvo de `indexUrl`, que o Yomitan consulta para verificar atualizações. Tags `v0.*` saem como pré-lançamento.
+Um push de tag `vX.Y.Z` dispara `.github/workflows/release.yml`. Ele valida `dictionaries/` com `scripts/build.py` e publica os ZIPs e os índices soltos (`Jitendex-PT.json`, etc.) como assets do Release. Os índices são o alvo de `indexUrl`, que o Yomitan consulta para verificar atualizações. O release sai sempre como "latest", e não como prerelease, porque `releases/latest/download/` ignora pré-lançamentos e quebraria as atualizações. O aviso de que a v0.x é um pré-lançamento fica em `docs/RELEASE.md`.
 
 ## Regras
 
