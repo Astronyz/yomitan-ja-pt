@@ -10,8 +10,13 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with: {python-version: '3.x'}
-      - run: python scripts/build.py --public
+      - run: python scripts/build.py --public --dist dist
       - uses: softprops/action-gh-release@v2
         with:
+          # versões 0.x são pré-lançamento: parte das glosas ainda está em inglês
+          prerelease: ${{ startsWith(github.ref_name, 'v0.') }}
+          body_path: docs/RELEASE.md
           generate_release_notes: true
-          files: 'public_out/*.zip'
+          files: |
+            dist/*.zip
+            dist/*.json

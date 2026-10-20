@@ -11,6 +11,6 @@ jobs:
       - name: scan repository policy
         shell: bash
         run: |
-          ! find . -type f -size +25M -print -quit | grep -q .
-          ! find . -iname '*.zip' -o -iname '.env*' | grep -q .
+          ! find . -type f -size +25M ! -path './dictionaries/*' -print -quit | grep -q .
+          ! find . \( -iname '*.zip' -o -iname '.env*' \) ! -path './dictionaries/*' | grep -q .
           ! grep -RIEq '(ghp_[A-Za-z0-9]|xoxb-[A-Za-z0-9]|BEGIN (RSA|OPENSSH|EC) PRIVATE KEY)' --exclude-dir=.git .

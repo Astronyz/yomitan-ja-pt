@@ -2,18 +2,44 @@
 
 Dicionários japonês → português brasileiro para [Yomitan](https://github.com/yomidevs/yomitan): termos, nomes próprios e kanji.
 
+> **Pré-lançamento (v0.x).** A estrutura dos dicionários está completa e validada, mas a maior parte das glosas do Jitendex-PT ainda está em inglês. Cada entrada traz uma tag dizendo o estado da tradução (veja abaixo).
+
 ## Instalação
 
-Baixe os ZIPs na página de [Releases](https://github.com/Astronyz/yomitan-ja-pt/releases) e importe-os em **Yomitan → Dictionaries → Configure → Import**. Os índices apontam para o release mais recente para permitir atualização automática.
+Baixe os ZIPs na página de [Releases](https://github.com/CosmionLabs/yomitan-ja-pt/releases) e importe-os em **Yomitan → Dictionaries → Configure → Import**. Os dicionários principais apontam para o release mais recente, então o Yomitan consegue verificar atualizações sozinho.
+
+| Arquivo | Conteúdo |
+|---|---|
+| `Jitendex-PT.zip` | Termos (base Jitendex/JMdict, com exemplos Tatoeba) |
+| `JMnedict-PT.zip` | Nomes próprios (base JMnedict) |
+| `KANJIDIC-PT-completo.zip` | Kanji (base KANJIDIC2, significados em português) |
+| `JMdict-PT-bonus.zip`, `wty-ja-pt.zip` | Bônus, idênticos às fontes abertas |
+
+## Estado da tradução
+
+| Dicionário | Entradas | PT completo | Parcial | Ainda em inglês | Sem texto a traduzir* |
+|---|---:|---:|---:|---:|---:|
+| Jitendex-PT | 436.555 | 33.550 | 33.753 | 230.301 | 138.951 |
+| JMnedict-PT | 668.008 | 4.739 | 96 | 13.422 | 649.751 |
+| KANJIDIC-PT-completo | 1.944 kanji | todos | — | — | — |
+
+\* Redirecionamentos (`⟶ outra grafia`) e nomes romanizados, que não precisam de tradução.
+
+Tags exibidas no Yomitan:
+
+- `pt-automatica`: tradução automática (DeepL), ainda não revisada;
+- `pt-reaproveitada`: português vindo de fonte aberta;
+- `pt-parcial`: parte das glosas da entrada ainda em inglês;
+- `pt-pendente`: glosas ainda em inglês.
+
+Detalhes em [docs/RELATORIO.md](docs/RELATORIO.md).
 
 ## Conteúdo e licenças
 
-Os dados derivam de JMdict/JMnedict/KANJIDIC2, Jitendex e fontes portuguesas públicas. Consulte [ATRIBUICOES.md](ATRIBUICOES.md) e [FONTES.md](FONTES.md). O dicionário pessoal 現代日葡辞典 e qualquer conteúdo derivado dele são deliberadamente excluídos.
-
-Parte das definições ainda contém a marca `[EN→PT pendente]`; correções manuais devem ser adicionadas em `data/overrides/`.
+Os dados derivam de JMdict/JMnedict/KANJIDIC2 (EDRDG), Jitendex (© Stephen Kraus, CC BY-SA 4.0), Tatoeba (CC BY 2.0 FR) e fontes portuguesas públicas. Os dados são distribuídos sob CC BY-SA 4.0 ([LICENSE-DATA](LICENSE-DATA)) e o código sob MIT ([LICENSE](LICENSE)). Consulte [ATRIBUICOES.md](ATRIBUICOES.md) e [FONTES.md](FONTES.md). O dicionário comercial 現代日葡辞典 não é usado como fonte e nenhum conteúdo dele é redistribuído.
 
 ## Build e contribuição
 
-Use Python 3 e as fontes públicas listadas em `fontes.json`. O build público é `python scripts/build.py --public`; ele valida JSON, bloqueia fontes pessoais e gera os artefatos para o Release. Veja [CONTRIBUTING.md](CONTRIBUTING.md) e [docs/BUILD.md](docs/BUILD.md).
+O pipeline completo está em `scripts/` e é descrito em [docs/BUILD.md](docs/BUILD.md). Correções manuais de tradução vão em `data/overrides/`. Veja [CONTRIBUTING.md](CONTRIBUTING.md).
 
-English: Japanese → Brazilian Portuguese Yomitan dictionaries. See the same build and licensing documents; contributions and corrections are welcome.
+English: Japanese → Brazilian Portuguese Yomitan dictionaries (pre-release; most Jitendex glosses are still in English and are tagged `pt-pendente`). Contributions and corrections are welcome.
