@@ -21,6 +21,7 @@ import copy
 import json
 import re
 import shutil
+import sqlite3
 import zipfile
 from collections import Counter
 from pathlib import Path
@@ -36,6 +37,9 @@ STATUS_DECLS = [
     ["pt-parcial", "translation", 0, "Parte das glosas ainda está em inglês", 0],
     ["pt-pendente", "translation", 0, "Glosas ainda em inglês, aguardando tradução", 0],
 ]
+
+# traduções de work/translations.sqlite (DeepL, Gemini), carregadas em main()
+CACHE: dict[str, str] = {}
 
 LATIN = re.compile(r"[A-Za-z]{3,}")
 JAPANESE = re.compile(r"[぀-ヿ㐀-鿿]")
@@ -112,6 +116,11 @@ def merge(src, cur, glossary: bool, found: list, stats: Counter):
         if cur != src and translatable(src) and (still_english(cur) or word_swapped(src, cur)):
             stats["revertidas"] += 1
             cur = src
+        if cur == src and translatable(src):
+            cached = CACHE.get(src)
+            if cached and cached != src and not still_english(cached):
+                stats["do_cache"] += 1
+                cur = cached
         if translatable(src):
             found.append((glossary, cur != src))
         return cur
@@ -242,6 +251,10 @@ def main() -> None:
     ap.add_argument("--out", type=Path, default=ROOT / "out")
     ap.add_argument("--public", type=Path, default=ROOT / "public_out")
     args = ap.parse_args()
+    db = ROOT / "work" / "translations.sqlite"
+    if db.exists():
+        with sqlite3.connect(db) as con:
+            CACHE.update(con.execute("SELECT source, translation FROM translations"))
     args.public.mkdir(exist_ok=True)
     lines = ["| Dicionário | Entradas | reaproveitada | automática | parcial | pendente |", "|---|---:|---:|---:|---:|---:|"]
     for name, (src, desc) in PACKAGES.items():

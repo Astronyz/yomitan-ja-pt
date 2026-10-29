@@ -7,8 +7,9 @@ O pipeline roda localmente com Python 3.10+ e sem dependências externas. As fon
 1. `python scripts/download_latest_sources.py`: baixa as versões mais recentes das fontes públicas listadas em `fontes.json`.
 2. `python scripts/build_dictionary.py`: gera `out/` a partir das fontes, reaproveitando o português do JMdict-PT e o glossário de etiquetas em `data/overrides/`.
 3. `python scripts/translate_pending.py` / `python scripts/translate_remaining.py`: traduz as glosas pendentes com DeepL, usando a chave em `DEEPL_API_KEY` e o cache `work/translations.sqlite`. Cada string é paga só uma vez.
+   Alternativa: `python scripts/translate_gemini.py`, com a chave em `GEMINI_API_KEY`. Ele lê `public_out/`, envia só as glosas que continuam em inglês e grava no mesmo cache (`engine = gemini:<modelo>`). Rode antes com `--dry-run`, que conta as strings e estima o custo, e depois `--max-requests 2` para conferir a qualidade. O script é retomável e para sozinho quando a cota diária acaba. Depois volte à etapa 5.
 4. `python scripts/rebuild_clean.py`: reconstrói os pacotes de `out/` sobre a estrutura exata das fontes, preservando os campos estruturais (`tag`, `data`, `lang`, `href`, `style`) e os arquivos de apoio.
-5. `python scripts/finalizar_publicacao.py`: compara cada string com a fonte, desfaz trocas que continuaram em inglês (incluindo híbridos como "maiden nome"), recalcula as tags `pt-*`, ajusta `index.json`/`tag_bank` e grava `public_out/`.
+5. `python scripts/finalizar_publicacao.py`: compara cada string com a fonte, desfaz trocas que continuaram em inglês (incluindo híbridos como "maiden nome"), aplica as traduções do cache às strings que ainda estão iguais à fonte, recalcula as tags `pt-*`, ajusta `index.json`/`tag_bank` e grava `public_out/`.
 6. Copie `public_out/*.zip` e `public_out/*.json` para `dictionaries/` e rode `python scripts/build.py --public`.
 
 ## Release
